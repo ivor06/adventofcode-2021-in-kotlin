@@ -3,6 +3,7 @@ package com.adventofcode.y2021
 fun main() {
     day1()
     day2()
+    day3()
 }
 
 fun day1() {
@@ -29,4 +30,17 @@ fun day2() {
     /* part2 */
     check(Day2.part2(testInput1) == 900)
     check(Day2.part2(testInput2) == 2015547716)
+}
+
+fun day3() {
+    val testInput1 = Utils.readInput("main/resources/y2021/Day03_1")
+    val testInput2 = Utils.readInput("main/resources/y2021/Day03_2")
+
+    /* part1 */
+    check(Day3.part1(testInput1) == 198)
+    check(Day3.part1(testInput2) == 3969000)
+
+    /* part2 */
+    check(Day3.part2(testInput1) == 230)
+    check(Day3.part2(testInput2) == 4267809)
 }
