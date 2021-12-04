@@ -4,6 +4,7 @@ fun main() {
     day1()
     day2()
     day3()
+    day4()
 }
 
 fun day1() {
@@ -43,4 +44,17 @@ fun day3() {
     /* part2 */
     check(Day3.part2(testInput1) == 230)
     check(Day3.part2(testInput2) == 4267809)
+}
+
+fun day4() {
+    val testInput1 = Utils.readInput("main/resources/y2021/Day04_1")
+    val testInput2 = Utils.readInput("main/resources/y2021/Day04_2")
+
+    /* part1 */
+    check(Day4.part1(testInput1) == 4512)
+    check(Day4.part1(testInput2) == 10374)
+
+    /* part2 */
+    check(Day4.part2(testInput1) == 1924)
+    check(Day4.part2(testInput2) == 24742)
 }
